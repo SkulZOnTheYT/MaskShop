@@ -1,0 +1,22 @@
+masks:
+  - name: Skeleton Head
+    price: 100
+    type: SKELETON_SKULL
+  - name: Wither Head
+    price: 500
+    type: WITHER_SKELETON_SKULL
+  - name: Zombie Head
+    price: 50
+    type: ZOMBIE_HEAD
+  - name: Piglin Head
+    price: 200
+    type: PIGLIN_HEAD
+  - name: Dragon Head
+    price: 1000
+    type: DRAGON_HEAD
+  - name: Player Head
+    price: 250
+    type: PLAYER_HEAD
+  - name: Creeper Head
+    price: 150
+    type: CREEPER_HEAD
