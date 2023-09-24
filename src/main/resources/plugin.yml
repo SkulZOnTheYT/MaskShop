@@ -1,0 +1,14 @@
+name: MaskShop
+version: 1.0.0
+description: A plugin that allows players to buy masks from a shop
+author: SkulZOnTheYT
+main: com.SkulZOnTheYT.maskshop.MaskShop
+depend: [Vault]
+commands:
+  maskshop:
+    description: Opens the mask shop
+    usage: /maskshop
+permissions:
+  maskshop.use:
+    description: Allows players to use the mask shop
+    default: true
