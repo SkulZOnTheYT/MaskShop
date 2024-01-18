@@ -3,20 +3,21 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.0.0'
 }
 
-group 'com.example'
+group 'com.e'
 version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven("https://repo.papermc.io/repository/maven-public/")
 }
 
 dependencies {
-    implementation 'org.bukkit:bukkit:1.17.1-R0.1-SNAPSHOT'
+    compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
     implementation 'net.milkbowl.vault:vault:1.7.3'
 }
 
 shadowJar {
-    relocate 'com.example.maskshop', 'your.plugin.package.name'
+    relocate 'com.SkulZOnTheYT.maskshop', 'your.plugin.package.name'
     dependencies {
         exclude(dependency('org.bukkit:bukkit'))
         exclude(dependency('net.milkbowl.vault:vault'))
